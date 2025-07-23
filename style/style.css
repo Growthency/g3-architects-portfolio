@@ -6,3 +6,83 @@
     font-weight: 400;
     font-style: normal;
 }
+
+/* Shared Styles */
+.display-flex {
+    display: flex;
+}
+
+.text-grey {
+    color: #424242;
+}
+
+.light-text-grey {
+    color: #727272;
+}
+
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+
+/* Navbar Styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link-items {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: ;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+
+
+.banner-title {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.banner-text {
+    font-size: 1rem;
+}
+
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.banner-img {
+    margin-bottom: 3rem;
+    max-width: 100%;
+}
