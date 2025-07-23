@@ -38,7 +38,9 @@
 .banner,
 .features,
 .teams,
-.some-facts {
+.some-facts,
+.footer-container,
+.sponsor {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -165,4 +167,33 @@
 .facts-text {
     color: #727272;
     margin-bottom: 3rem;
+}
+
+/* Sponsor Styles started From Here */
+.sponsor-img-container {
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+.sponsor-container {
+    text-align: center;
+}
+
+.sponsor-title {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.sponsor-text {
+    color: #727272;
+}
+
+/* Footer Started From Here */
+.footer-container {
+    background-color: bisque;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px 0;
+    margin-bottom: 10rem;
 }
