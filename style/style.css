@@ -35,7 +35,10 @@
 }
 
 .navbar,
-.banner {
+.banner,
+.features,
+.teams,
+.some-facts {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -85,4 +88,81 @@
 .banner-img {
     margin-bottom: 3rem;
     max-width: 100%;
+}
+
+/* Features Section Started */
+.teams {
+    align-items: center;
+}
+
+.feature-text {
+    color: #FF900E;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5rem 0;
+    gap: 1.50rem;
+}
+
+.team-title {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.team-text-container {
+    margin-left: 130px;
+}
+
+.team-text {
+    color: #727272;
+}
+
+#quick-list {
+    color: #727272;
+}
+
+.img-item {
+    max-width: 100%;
+}
+
+.facts-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.50rem;
+    margin-bottom: 10rem;
+}
+
+.facts-card-item {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fact-number {
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.fact-name {
+    font-size: 1.25rem;
+    color: #727272;
+    margin: 10px 0;
+}
+
+.facts-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.facts-text {
+    color: #727272;
+    margin-bottom: 3rem;
 }

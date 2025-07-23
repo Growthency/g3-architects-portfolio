@@ -3,10 +3,64 @@
 @media screen and (max-width: 576px) {
 
     .navbar,
-    nav-links {
+    nav-links,
+    .teams {
         flex-direction: column;
+    }
+
+    .team-text-container {
+        margin-left: 30px;
+    }
+
+    .team-img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .facts-card-item {
+        flex-direction: column;
+    }
+
+    .facts-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.50rem;
+        margin: 0 2rem;
+    }
+
+    .facts-card-item {
+        max-width: 100%;
+    }
+
+    .some-facts {
+        margin: auto 3rem;
     }
 }
 
 /* Medium size device */
-@media screen and (min-width: 576px) and (max-width: 992px) {}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams {
+        flex-direction: column;
+    }
+
+    .team-text-container {
+        margin-left: 30px;
+    }
+
+    .facts-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.50rem;
+        margin: 0 2rem;
+    }
+
+    .some-facts {
+        margin: auto 3rem;
+        max-width: 100%;
+    }
+
+    .facts-card-item {
+        max-width: 100%;
+        width: 220px;
+        height: 220px;
+    }
+}
